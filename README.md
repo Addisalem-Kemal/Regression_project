@@ -57,5 +57,9 @@ The goals of this project is as follows:
  | tax_amount    | property tax assessed for the tax year                                 | float
  | tax_value     | total tax assessed value of a parcel                                   | float
  | fips          | Federal Information Processing Standard code                           | int
+ | 
                  | - see https://en.wikipedia.org/wiki/FIPS_county_code for more details  |
+                 
+ there were 63 columns worth of data points that got filtered down to what was deemed relevant drivers.
+ 
  
