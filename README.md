@@ -61,8 +61,5 @@ The goals of this project is as follows:
                  | - see https://en.wikipedia.org/wiki/FIPS_county_code for more details  |
                  
  there were 63 columns worth of data points that got filtered down to what was deemed relevant drivers.
- Zip codes did not match the county zip codes
-The largest zip code number in all 3 counties is 93591 in LA County
-This dataset begins at 95982
-
+ 
  
