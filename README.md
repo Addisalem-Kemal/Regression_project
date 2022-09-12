@@ -60,6 +60,30 @@ The goals of this project is as follows:
  | 
                  | - see https://en.wikipedia.org/wiki/FIPS_county_code for more details  |
                  
- there were 63 columns worth of data points that got filtered down to what was deemed relevant drivers.
- 
- 
+ - there were 63 columns worth of data points but had a lot of missing values that got filtered down to what was deemed relevant drivers.
+
+## Stats
+
+   - Surprisingly the number of bathrooms were a better driver for value than the bedrooms.
+   - Area correlates best with the tax value of the chosen features.
+   
+## Modeling:
+
+   - My best model was the Polynomial Regression model with a power of 2:
+   - RMSE of 13615.6212 from a baseline of 511389.7412
+   - RMSE improvement of 58534.1588
+   - R2 Value of the model, 35.8%, indicates there is an improvement over the baseline but not a very strong fit overall.
+   
+### Recommendations:
+
+   - The data had too many empty values that were not useful in the modeling. A more complete data could give a better model
+   - Demographic and socio-economic data can be drivers since people care about the types of neighbors they have.
+   - Crime data, school district data performance data may also be drivers.
+   - If I had more time I would split them by counties and see if that imporoves the model
+   - 
+### Reproduce:
+     - Pull all files from this repository
+     - Add env.py file to the repository folder
+     - Open Zillow_projest.ipynb and click through each cell to run
+     - Each cell is commented with the actions of it and walks through the pipeline process
+
