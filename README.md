@@ -86,4 +86,5 @@ The goals of this project is as follows:
      - Add env.py file to the repository folder
      - Open Zillow_projest.ipynb and click through each cell to run
      - Each cell is commented with the actions of it and walks through the pipeline process
+     - Random state set at 42
 
